@@ -10,6 +10,9 @@ class Scraper
     end
 
     def get_courses
+      self.get_page.each do |post|
+
+      end
     end
 
     def print_courses
